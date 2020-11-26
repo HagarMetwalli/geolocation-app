@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>task</title>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyB90FxtYG_ybAYXGkz0ybkmkboE2nEbezI"></script>
+    <link rel="stylesheet" href="Geolocation.css" />
+</head>
+<body>
+    <section id="mainsection">
+        <section id="top">
+            <button id="mapbtn">Display Map</button>
+            <button id="detailbtn"> detalid information</button>
+        </section>
+        <section id="bottom">
+            <div id="imgid">
+            </div>
+            <div id="detailid">
+                <label>latitude (degree)</label>
+                <input type="text" />
+                <label>longitude (degree)</label>
+                <input type="text" />
+                <label>Accuracy (m)</label>
+                <input type="text" />
+                <label>TimeStamp (Current Time and Date)</label>
+                <input type="text" />
+            </div>
+        </section>
+    </section>
+    <script type="module" src="Geolocation.js"></script>
+</body>
+
+</html>
